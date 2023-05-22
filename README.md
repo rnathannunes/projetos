@@ -2,6 +2,8 @@
  Repositório destinados a pequenos projetos
 
 
-       <a href="https://rnathannunes.github.io/projetos/javascript/hora-do-dia/index.html" target="_blank">Projeto Hora do dia</a>
+       Projeto Hora do dia:
+       https://rnathannunes.github.io/projetos/javascript/hora-do-dia/index.html
 
-       <a href="https://rnathannunes.github.io/projetos/javascript/verificador-idades/index.html" target="_blank">Projeto Verificador de Idades</a>
+       Projeto Verificador de Idades:
+       https://rnathannunes.github.io/projetos/javascript/verificador-idades/index.html
