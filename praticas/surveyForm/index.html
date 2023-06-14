@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">
+                Pesquisa sobre Tecnologia
+            </h1>
+            <p id="descricao" class="decrição texto centro">
+                Obrigado pelo seu tempo, sua opnião é importante para mim
+            </p>
+        </header>
+
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="Nome">Nome</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Qual sua graça?" required>
+            </div>
+            <div class="form-group">
+                <label id="email" for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Shaolinmatadordeporco não vale, blz?" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Idade<span class="dica">(Opcional)</span></label>
+                <input type="number" name="age" id="number" min="10" max="110" class="form-control" placeholder="Juramos que é para uma boa causa">
+            </div>
+            <div class="form-group">
+                <p>Escolha uma opção que te descreve hoje?</p>
+                <select name="role" id="dropdown" class="form-control" required>
+                    <option disabled selected value>Selecione alguma atividade</option>
+                    <option value="student">Estudante</option>
+                    <option value="job">Trabalho Full</option>
+                    <option value="learner">Estudante Full</option>
+                    <option value="preferNo">Prefiro não dizer<span class="dica">(vagabundo)</span></option>
+                    <option value="other">Outro<span class="dica">(Agiota/traficante)</span></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Você recomendaria essa pesquisa sincera para algum amigo?</p>
+                <label>
+                    <input type="radio" name="user-recommend" class="input-radio" value="definitivamente" checked>Definitivamente
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="talvez" class="input-radio"> Talvez
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="naotenhocerteza" class="input-radio"> Não tenho certeza
+                </label>
+            </div>
+        
+            <div class="form-group">
+                <p>Qual sua parte favorita quando o assunto é aprender tecnologia?</p>
+                <select name="mostlike" id="mostlike" class="form-control" required>
+                    <option disabled selected value>Selecione uma opção</option>
+                    <option value="desafios">Desafios</option>
+                    <option value="projetos">Projetos</option>
+                    <option value="comunidade">Comunidade</option>
+                </select>
+            </div>
+            <div>
+                <p>Quais áreas são de seu interesse hoje?<span class="dica">(Selecione mais de uma se quiser)</span></p>
+                <label>
+                    <input type="checkbox" name="prefer" value="front-end" class="input-checkbox">
+                    Front-end
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="back-end" class="input-checkbox">
+                    Back-end
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="fullstack" class="input-checkbox">
+                    FullStack
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="suportetecnico">
+                    Suporte Técnico
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="bancodedados">
+                    Banco de dados
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Algum comentário ou sugestão?</p>
+                <textarea name="comentario" id="comentario" class="input-textarea" placeholder="Me dia aí, vai..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="enviar" class="submit-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>
+            Releitura de pesquisa proposta por <a href="https://codepen.io/freeCodeCamp/pen/VPaoNP?editors=1100">freeCodeCamp</a>
+        </p>
+    </footer>
+</body>
+</html>
