@@ -22,7 +22,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.459);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.363);
 }
 #container {
     display: flex;
@@ -49,6 +49,7 @@ main {
     text-align: center;
     top: 80px;
     margin: 0 20px 0 20px;
+    opacity: .85;
 }
 #textoSec {
     position: relative;
