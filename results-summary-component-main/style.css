@@ -7,7 +7,6 @@
     padding: 0;
 }
 
-
 body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
@@ -25,10 +24,9 @@ body {
     transform: translate(-50%, -50%);
     width: 500px;
     height: 350px;
-    box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.507);
+    box-shadow: 1px 12px 15px 10px rgba(0, 0, 0, 0.048);
     border-radius: 25px;
 }
-
 
 /* -- lado esquerdo -- */
 #leftside {
@@ -62,6 +60,10 @@ body {
     border-radius: 50%;
     width: 140px;
     height: 140px;
+}
+#results:hover {
+    font-size: 1.5em;
+    transition: ease-in, .2s;
 }
 .results {
     font-weight: 800;
@@ -105,29 +107,67 @@ body {
     
 }
 
+/* -- atributos -- */
 .globalatrib {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
     height: 30px;
     margin: 0 30px;
+    padding: 4px 0;
     display: flex;
-    justify-content: space-around;
-    
-    /*margin: 0 30px 0px 30px;
-    padding: 5px;*/
+    justify-content: space-between;
+    align-items: center;
 }
+
 .atribbutes {
     font-size: .65em;
     font-weight: 700;
+    padding: 0 10px;
 }
-.data {
-    
-    
+.atribbutesaux {
+    font-size: .65em;
+    font-weight: 700;
+    padding: 0 10px;
+    color: hsl(224, 30%, 27%);
 }
 .dataaux {
-    opacity: 80%;
+    opacity: 50%;
 }
 
+#reaction {
+    color: hsla(0, 100%, 67%, 0.7);
+    background-color: hsla(0, 100%, 67%, 0.06);
+}
+#reaction:hover{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+#memory {
+    color: hsla(39, 100%, 56%, 0.7);
+    background-color: hsla(39, 100%, 56%, 0.06);
+}
+#memory:hover {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+#verbal {
+    color: hsl(166, 100%, 37%, 0.7);
+    background-color: hsl(166, 100%, 37%, 0.06);
+}
+#verbal:hover {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+#visual {
+    color: hsl(234, 85%, 45%, 0.7);
+    background-color: hsl(234, 85%, 45%, 0.06);
+}
+#visual:hover {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+/* -- botão continue -- */
 #continue {
     position: relative;
     font-size: .65em;
@@ -139,8 +179,9 @@ body {
     top: -10px;
     background-color: hsl(224, 30%, 27%);
 }
-
-/* -- botão continue -- */
+#continue:hover {
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
 .continue {
     text-align: center;
     color: hsl(221, 100%, 96%);
@@ -148,8 +189,19 @@ body {
 
 /* --FOOTER-- */
 .attribution {
-    font-size: 11px; text-align: center; 
+    text-align: center;
+    font-size: 11px;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(38, 4, 255);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 0%, 0%);
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+
 }
