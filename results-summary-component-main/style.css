@@ -14,6 +14,7 @@ body {
     background-color: hsla(0, 0%, 100%, 0.76);;
 }
 
+/* -- caixa maior -- */
 #container {
     display: flex;
     flex-direction: row;  
@@ -28,6 +29,8 @@ body {
     border-radius: 25px;
 }
 
+
+/* -- lado esquerdo -- */
 #leftside {
     display: flex;
     justify-content: space-between;
@@ -44,8 +47,8 @@ body {
     padding: 20px;
     margin-bottom: -10px;
     font-size: 0.9em;
-    font-weight: 500;
-    color: hsla(0, 0%, 100%, 0.76);
+    font-weight: 700;
+    color: hsla(241, 100%, 89%)
 }
 
 #results {
@@ -69,7 +72,7 @@ body {
     margin-top: -5px;
     font-weight: 500;
     font-size: .65em;
-    color: hsla(0, 0%, 100%, 0.76);;
+    color: hsla(241, 100%, 89%)
 }
 
 .congrats {
@@ -82,11 +85,65 @@ body {
     font-weight: 500;
     font-size: .65em;
     margin: 0 43px 43px 43px;
-    color: hsla(0, 0%, 100%, 0.76);
+    color: hsla(241, 100%, 89%)
 }
 
+
+/* -- lado direito -- */
 #rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 250px;
+}
+.toptext2 {
+    font-size: .9em;
+    font-weight: 700;
+    margin: 10px;
+    margin: 0 30px 0px 30px;
+    color: hsl(224, 30%, 27%);
+    
+}
+
+.globalatrib {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    
+    /*margin: 0 30px 0px 30px;
+    padding: 5px;*/
+}
+.atribbutes {
+    font-size: .65em;
+    font-weight: 700;
+}
+.data {
+    
+    
+}
+.dataaux {
+    opacity: 80%;
+}
+
+#continue {
+    position: relative;
+    font-size: .65em;
+    font-weight: 700;
+    
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px 30px 0px 30px;
+    top: -10px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+/* -- botão continue -- */
+.continue {
+    text-align: center;
+    color: hsl(221, 100%, 96%);
 }
 
 /* --FOOTER-- */
