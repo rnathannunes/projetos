@@ -2,15 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
+
+/*- Mobile: 375px
+- Desktop: 1440px*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
+body,html {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
-    background-color: hsla(0, 0%, 100%, 0.76);;
+    background-color: hsla(0, 0%, 100%, 0.76);
+    width: 100vw;
+    height: 100vh;
 }
 
 /* -- caixa maior -- */
@@ -186,6 +192,9 @@ body {
     text-align: center;
     color: hsl(221, 100%, 96%);
 }
+#continue a{
+    text-decoration: none;
+}
 
 /* --FOOTER-- */
 .attribution {
@@ -201,7 +210,11 @@ body {
     color: hsl(0, 0%, 0%);
     text-decoration: none; 
 }
-a:hover {
+footer a:hover {
     text-decoration: underline;
 
+}
+
+@media screen {
+    
 }
