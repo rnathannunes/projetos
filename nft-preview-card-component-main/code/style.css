@@ -30,6 +30,9 @@ body {
     border-radius: 10px;
     margin: 19px;
 }
+#imageEquilibrium:hover {
+    
+}
 
 #container {
     display: flex;
@@ -45,14 +48,14 @@ body {
     box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.397);
 }
 
-.text {
-
-}
 .name {
     color: var(--White);
     margin-left: 20px;
     font-weight: 600;
     font-size: 1.1em;
+}
+.name:hover {
+    color: var(--Cyan);
 }
 .description {
     color: var(--softBlue);
@@ -103,13 +106,26 @@ body {
 .creatName {
     color: var(--White);
 }
+.creatName:hover {
+    color: var(--Cyan);
+}
 
 /* -- FOOTER -- */
-.attribution {
-    font-size: 11px; text-align: center;
+footer {
+    text-align: center;
+    font-size: 11px;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--softBlue);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: var(--Cyan);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 /*
