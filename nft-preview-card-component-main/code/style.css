@@ -30,8 +30,19 @@ body {
     border-radius: 10px;
     margin: 19px;
 }
-#imageEquilibrium:hover {
-    
+#image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -91%);
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;    
+}
+
+#image:hover {
+    background: url(../images/icon-view.svg) center no-repeat hsla(178, 100%, 50%, 0.4);
+    transition: .1s;
 }
 
 #container {
