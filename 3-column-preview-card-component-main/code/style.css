@@ -91,15 +91,15 @@ button {
 #btncolor3 {
     color: var(--veryDarkCyan);
 }
-#btncolor1:hover{
+#btncolor1:active{
     border: 1px solid var(--transparentWhiteP);   background-color: var(--brightOrange);
     color: var(--transparentWhiteP);
 }
-#btncolor2:hover {
+#btncolor2:active {
     border: 1px solid var(--transparentWhiteP);   background-color: var(--darkCyan);
     color: var(--transparentWhiteP);
 }
-#btncolor3:hover {
+#btncolor3:active {
     border: 1px solid var(--transparentWhiteP);   background-color: var(--veryDarkCyan);
     color: var(--transparentWhiteP);
 }
