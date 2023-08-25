@@ -37,6 +37,17 @@ body {
     background-color: var(--darkBlue);
 }
 
+.header {
+    margin-left: 40px;
+    margin-top: -50px;
+}
+img {
+    background-color: hsla(217, 12%, 63%, 0.062);
+    border-radius: 50%;
+    padding: 15px;
+    height: 25px;
+}
+
 h1 {
     color: var(--White);
 }
@@ -44,20 +55,22 @@ p {
     color: var(--lightGrey);
 }
 
-img{
-    height: 50px;
-}
-
 #rate {
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    align-items: center;
-    width: 400px;
+    justify-content: space-between;
+    margin: 15px 30px;
 }
 .number {
-    background-color: var(--lightGrey);
+    background-color: hsla(217, 12%, 63%, 0.144);
     border-radius: 50%;
+    color: var(--lightGrey);
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 /*--footer--*/
