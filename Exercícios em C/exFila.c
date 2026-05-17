@@ -85,10 +85,10 @@ void fila_sair(){
 
 //Mostrar o conteúdo da fila
 
-void fila_mostra(){
+void fila_mostrar(){
     int i;
     printf("[");
-    for (i = 0; i < tamanho; i+) {
+    for (i = 0; i < tamanho; i++) {
         printf("%d", fila.dado[i]);
     }
     printf("]\n\n");
@@ -102,17 +102,3 @@ void menu_mostrar(){
     printf("2 - Excluir da fila\n");
     printf("0 - Sair\n\n");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
