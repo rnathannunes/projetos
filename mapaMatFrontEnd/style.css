@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  background: #0f0f12;
+  color: #eaeaea;
+  padding: 50px;
+}
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   IMAGEM PERFIL
+========================= */
+
+img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 3px solid #2e2e2e;
+}
+
+/* =========================
+   NAVEGAÇÃO
+========================= */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background: rgba(15, 15, 18, 0.85);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid #2a2a2a;
+}
+
+nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background: #1f1f25;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.texto {
+  margin-bottom: 40px;
+}
+
+.texto p {
+  margin-bottom: 15px;
+  color: #cfcfcf;
+}
+
+/* =========================
+   LISTA
+========================= */
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* =========================
+   PROJETOS
+========================= */
+
+article {
+  background: #1a1a1f;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+article:hover {
+  transform: translateY(-4px);
+  background: #22222a;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+#links {
+  color: #7cc7ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#links:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   ASIDE
+========================= */
+
+aside {
+  background: #15151a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+  color: #d0d0d0;
+  transition: 0.3s;
+}
+aside:hover {
+	transform: translateY(-4px);
+	background: #22222a;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid #2a2a2a;
+  color: #a9a9a9;
+}
+
+footer a {
+  color: #7cc7ff;
+}
