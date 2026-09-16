@@ -8,7 +8,5 @@ function calcularValores() {
         let resultado = (valor1 + valor2)
         resultado.innerHTML
     } else {
-        alert('Não funcionou ainda!')
+        
     }
-    
-}
