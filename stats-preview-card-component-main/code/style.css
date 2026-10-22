@@ -25,9 +25,15 @@ body {
 }
 #container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--darkDesaturatedBluecardBG);
 }
 
+
+.textData{
+    padding: 10px 50px;
+}
 h1 {
     font-family: var(--fontInter);
     color: var(--Whitemainheadingstats);
@@ -39,7 +45,11 @@ p {
     font-family: var(--fontLexend);
     color: var(--Slightlymainparagraph);
 }
-
+#dataEx{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+}
 
 
 /*FOOTER*/
