@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 html, body {
     margin: 0;
@@ -20,13 +21,15 @@ html, body {
     --fontInter: 'Inter', sans-serif;
     --fontLexend: 'Lexend Deca', sans-serif;
 }
-body {
+body{
     background-color: var(--veryDarkBluemainBG);
 }
-#container {
+#Container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     background-color: var(--darkDesaturatedBluecardBG);
 }
 
@@ -45,17 +48,23 @@ p {
     font-family: var(--fontLexend);
     color: var(--Slightlymainparagraph);
 }
-#dataEx{
+#DataEx{
     display: flex;
-    padding: 50px 0px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
 /*FOOTER*/
+footer{
+    color: var(--Whitemainheadingstats);
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .attribution {
     font-size: 11px; text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(197, 98%, 54%);
 }
